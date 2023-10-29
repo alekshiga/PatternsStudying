@@ -2,8 +2,6 @@ package builder;
 
 import builder.CarBuilder;
 
-import java.sql.SQLOutput;
-
 public class ClassicCarBuilder implements CarBuilder {
 
     private String chassis;
