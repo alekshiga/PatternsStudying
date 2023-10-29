@@ -2,7 +2,7 @@ package builder;
 
 public class PlaneEngineer {
 
-    private PlaneBuilder builder;
+    private final PlaneBuilder builder;
 
     PlaneEngineer(PlaneBuilder builder) {
         if (builder == null) {

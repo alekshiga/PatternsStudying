@@ -1,7 +1,5 @@
 package builder;
 
-import builder.CarBuilder;
-
 public class ClassicCarBuilder implements CarBuilder {
 
     private String chassis;

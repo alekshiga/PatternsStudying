@@ -47,15 +47,13 @@ public class Plane {
     }
 
     public boolean doQualityCheck() {
-        return (name.trim() != null) && (wings.trim() != null) &&
-                (chassis.trim() != null) && (engines.trim() != null);
+        return (name != null) && (wings != null) &&
+                (chassis != null) && (engines != null);
     }
 
     @Override
     public String toString() {
-        StringBuilder builder = new StringBuilder();
-        builder.append("Plane [name=").append(name).append("\n       wings=").append(wings).append("\n       chassis=").append(chassis).append("\n       engines=").append(engines).append("]");
-        return builder.toString();
+        return "Plane [name=" + name + "\n       wings=" + wings + "\n       chassis=" + chassis + "\n       engines=" + engines + "]";
     }
 
 }

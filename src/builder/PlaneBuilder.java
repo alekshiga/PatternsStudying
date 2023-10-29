@@ -2,14 +2,14 @@ package builder;
 
 public interface PlaneBuilder {
 
-    public PlaneBuilder setName();
+    PlaneBuilder setName();
 
-    public PlaneBuilder fixWings();
+    PlaneBuilder fixWings();
 
-    public PlaneBuilder fixChassis();
+    PlaneBuilder fixChassis();
 
-    public PlaneBuilder fixEngines();
+    PlaneBuilder fixEngines();
 
-    public Plane build();
+    Plane build();
 
 }
